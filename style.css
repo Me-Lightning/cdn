@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body{
+  min-height: 100vh;
+  overflow-x: hidden;
+  transition: 0.87s;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(244, 241, 241);
+  font-family: 'Poppins', sans-serif;
+  color:rgb(57, 57, 57);
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+  text-align: center;
+  
+}
+
+header{
+  z-index: 999;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo{
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: 800;
+  text-decoration: none;
+  background: linear-gradient(to right, #d7487e, #ea6360);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+header nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav a{
+  color: #d9497e;
+  font-size: 1.1em;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 20px;
+  padding: 5px 16px;
+  border-radius: 20px;
+  transition: 0.3s;
+  transition-property: background, color;
+}
+
+header nav a:hover{
+  background: linear-gradient(to bottom, #d94a7f, #fe9261);
+  color: #fff;
+}
+
+button{
+   background: linear-gradient(to bottom, #d94a7f, #fe9261);
+  color: #fff;
+    transition: 0.3s;
+    border-radius: 5px;
+    
+}
+    
